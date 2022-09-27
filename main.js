@@ -22,7 +22,7 @@ function modelLoaded(){
 }
 function draw(){
     background('#42bff5');
-    document.getElementById("square_sides").innerHTML="Width and the height of the sqare will be ="+difference+"px";
+    document.getElementById("square_side").innerHTML="Width and the height of the sqare will be ="+difference+"px";
     fill('#03fcbe');
     stroke('#03fcbe');
     square(noseX,noseY,difference);
